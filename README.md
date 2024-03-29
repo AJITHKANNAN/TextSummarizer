@@ -11,10 +11,15 @@
 7. update the main.py
 8. update the app.py
 
-## DAtaset link:
+## Dataset link:
 https://github.com/AJITHKANNAN/TextSummarizer/raw/main/summarizer-data.zip
 
 
+## Before executing Model trainer pipeline, perform below:
+pip install --upgrade accelerate
+pip uninstall -y transformers accelerate
+pip install transformers accelerate
+     
 # How to run?
 ### STEPS:
 
